@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wallethub">
+	<test name="WalletHubReview">
+		<classes>
+			<class name="org.wallethub.suites.FacebookMessage" />
+			<class name="org.wallethub.suites.WalletHubReview" />
+		</classes>
+	</test> <!-- WalletHubReview -->
+</suite> <!-- wallethub -->

@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>TestNG:  WalletHubReview</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>WalletHubReview</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 27 22:26:18 ICT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54205 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.wallethub.suites.WalletHubReview.WalletHubReviewVerify()'><b>WalletHubReviewVerify</b><br>Test class: org.wallethub.suites.WalletHubReview</td>
+<td></td>
+<td>19</td>
+<td>org.wallethub.suites.WalletHubReview@4fa3c06e</td></tr>
+<tr>
+<td title='org.wallethub.suites.FacebookMessage.postAFacebookMessage()'><b>postAFacebookMessage</b><br>Test class: org.wallethub.suites.FacebookMessage<br/>
+<a href="#Output-1265862078" onClick='toggleBox("Output-1265862078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1265862078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1265862078">
+Error: Timed out after 10 seconds waiting for text to be "". Current text: "Hello World1"
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'NguyenPT.local', ip: '192.168.0.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.7.0_75'
+Session ID: b6bd2245-fa85-864c-8aaf-dee46bf79e93
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0}]<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>org.wallethub.suites.FacebookMessage@53354a57</td></tr>
+</table><p>
+</body>
+</html>
