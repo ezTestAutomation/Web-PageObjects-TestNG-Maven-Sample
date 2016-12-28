@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-	<test name="Default test(failed)">
-		<classes>
-			<class name="org.wallethub.suites.FacebookMessage">
-				<methods>
-					<include name="beforeTest" />
-					<include name="postAFacebookMessage" />
-				</methods>
-			</class> <!-- org.wallethub.suites.FacebookMessage -->
-		</classes>
-	</test> <!-- Default test(failed) -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.wallethub.suites.FacebookMessage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="postAFacebookMessage"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- org.wallethub.suites.FacebookMessage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

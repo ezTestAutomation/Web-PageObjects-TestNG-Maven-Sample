@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.202 sec <<< FAILURE! - in TestSuite
+WalletHubReviewVerify(org.wallethub.suites.WalletHubReview)  Time elapsed: 19.479 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+this.browser.getBrowserForTab is not a function
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'NguyenPT.local', ip: '192.168.0.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160303134406, version=, platform=MAC, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=45.0, platformVersion=16.3.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Darwin, device=desktop}]
+Session ID: 74a9ef45-3dce-c744-9fd2-d11e01dab7fd
+*** Element info: {Using=xpath, value=//form[@id="reviewform"]//span[text()="Please select your policy"]}
+	at org.wallethub.suites.WalletHubReview.WalletHubReviewVerify(WalletHubReview.java:54)
+
+afterMethod(org.wallethub.suites.WalletHubReview)  Time elapsed: 19.486 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+this.browser.getBrowserForTab is not a function
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'NguyenPT.local', ip: '192.168.0.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.2', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160303134406, version=, platform=MAC, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=45.0, platformVersion=16.3.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Darwin, device=desktop}]
+Session ID: 74a9ef45-3dce-c744-9fd2-d11e01dab7fd
+	at org.wallethub.suites.WalletHubReview.afterMethod(WalletHubReview.java:101)
+

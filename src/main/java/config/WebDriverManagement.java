@@ -21,6 +21,7 @@ import org.openqa.selenium.firefox.MarionetteDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
 import org.testng.Assert;
 import org.testng.Reporter;
 
@@ -31,7 +32,7 @@ public class WebDriverManagement {
 		this.driver = driver;
 	}
 
-	@SuppressWarnings("deprecation")
+	//@SuppressWarnings("deprecation")
 	public WebDriver startWebDriverInstance(String url, String browserType) {
 
 		if (browserType.equals("gc")) {
@@ -49,6 +50,7 @@ public class WebDriverManagement {
 			driver = new InternetExplorerDriver();
 		}
 		if (browserType.equals("safari")) {
+			
 			driver = new SafariDriver();
 		} else {
 			System.out.println("Invalid browser type...." + browserType);
