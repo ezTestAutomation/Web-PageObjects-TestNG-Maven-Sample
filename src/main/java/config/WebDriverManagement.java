@@ -32,7 +32,7 @@ public class WebDriverManagement {
 		this.driver = driver;
 	}
 
-	//@SuppressWarnings("deprecation")
+	@SuppressWarnings("deprecation")
 	public WebDriver startWebDriverInstance(String url, String browserType) {
 
 		if (browserType.equals("gc")) {
