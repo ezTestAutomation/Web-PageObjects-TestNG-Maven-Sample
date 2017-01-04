@@ -1,7 +1,7 @@
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/wallethub/suites/WalletHubReview.java
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/facebook/resources/LogInScreen.java
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/wallethub/suites/FacebookMessage.java
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/wallethub/resources/ProfileScreen.java
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/facebook/resources/HomeScreen.java
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/wallethub/resources/ReviewScreen.java
-/Users/nguyen.pham/Documents/workspace/WalletHubMaven/src/test/java/org/wallethub/resources/SignInScreen.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/wallethub/resources/ProfileScreen.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/wallethub/resources/SignInScreen.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/wallethub/suites/FacebookMessage.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/facebook/resources/HomeScreen.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/facebook/resources/LogInScreen.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/wallethub/resources/ReviewScreen.java
+/Users/nguyen.pham/Documents/workspace/Jenkins/AWS/Projects/WalletHubMaven/src/test/java/org/wallethub/suites/WalletHubReview.java
