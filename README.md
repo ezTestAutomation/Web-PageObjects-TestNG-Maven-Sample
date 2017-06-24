@@ -1,4 +1,4 @@
-# WalletHubMaven
+# Web-page objects-Maven - sample
 Required libraries
 Eclipse Java EE IDE for Web Developers (version: Neon.1a Release (4.6.1)
 Maven 2
